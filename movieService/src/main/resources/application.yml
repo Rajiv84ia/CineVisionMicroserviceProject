@@ -7,7 +7,7 @@ spring:
   # PostgreSql Properties
   datasource:
     username: 'postgres'
-    url: postgres1.cb2m8ekc806k.ap-south-1.rds.amazonaws.com
+    url: jdbc:postgresql://postgres1.cb2m8ekc806k.ap-south-1.rds.amazonaws.com:5432/postgres
     password: 'postgres'
     driver-class-name: org.postgresql.Driver
   jpa:
